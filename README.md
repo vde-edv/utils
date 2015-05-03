@@ -8,7 +8,7 @@ under construction ...
 shell script to get your current 5 most frequent SELECT queries without touching your db server by
 * starting tcpdump on loopback device and port 3306 (mysql) to catch 100000 packets
 * piping output through sed to remove everything that does not include "SELECT" (case insensitive)
-* sorting resulting query stings by count
+* sorting resulting query strings by count
 * returning top 5 queries
 
 Should work with multiline queries if sql client removes them (mysql client does.)
