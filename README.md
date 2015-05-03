@@ -3,7 +3,7 @@ some utities for my private use, but might be useful for others as well.
 
 under construction ...
 
-## top5queries.sh
+## utils/top5queries.sh
 
 shell script to get your current 5 most frequent SELECT queries without touching your db server by
 * starting tcpdump on loopback device and port 3306 (mysql) to catch 100000 packets
